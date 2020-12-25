@@ -1,4 +1,4 @@
-# Redis-Cache-Net5
+# Redis Cache Library in Net5 and sample Api with Cache
 Redis Cache library with simple usage in .Net 5
 
 # What is this ?
@@ -25,7 +25,7 @@ Then :
 				return Configuration.GetSection("Redis").Get<RedisConnectionConfiguration>();
 			});
 ```
-3- Use IRedisCacheService in your app :
+2- Use IRedisCacheService in your app :
 ```code
   [ApiController]
 	[Route("cache")]
